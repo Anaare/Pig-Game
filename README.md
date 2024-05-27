@@ -1,5 +1,7 @@
 # Dice Game 
 
+## Netlify - https://main--piggy-game-v1.netlify.app/
+
 ## Overview
 
 Welcome to the 2-Player Dice Game! This is a simple, fun, and competitive game where two players take turns to roll a dice, accumulate points, and aim to reach a total score of 100 or more to win.
