@@ -14,6 +14,10 @@ const newGameBtn = document.querySelector('.btn--new');
 const rollBtn = document.querySelector('.btn--roll');
 const holdBtn = document.querySelector('.btn--hold');
 
+function displayDice() {
+  dice.classList.remove('hidden');
+}
+
 function updateDiceImage(n) {
   dice.src = `dice-${n}.png`;
 }
@@ -61,6 +65,7 @@ function getTotalScore() {
 
 function roll() {
   const dice = Math.floor(Math.random() * 6) + 1;
+  displayDice();
   updateDiceImage(dice);
   if (dice === 1) {
     player1CurrentScore.textContent = 0;
@@ -89,6 +94,7 @@ function reset() {
   player2TotalScore.textContent = 0;
   rollBtn.disabled = false;
   holdBtn.disabled = false;
+  dice.classList.add('hidden');
 }
 
 function getWinner() {
