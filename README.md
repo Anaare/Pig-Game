@@ -1,6 +1,6 @@
 # Dice Game 
 
-## Netlify - https://main--piggy-game-v1.netlify.app/
+## Netlify: https://main--piggy-game-v1.netlify.app/
 
 ## Overview
 
